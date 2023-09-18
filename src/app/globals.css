@@ -17,3 +17,24 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@layer base {
+  h1 {
+    @apply font-bold text-[38px] text-dark;
+  }
+  h2 {
+    @apply font-semibold text-[30px] text-dark;
+  }
+  h3 {
+    @apply font-medium text-[24px] text-dark;
+  }
+  h4 {
+    @apply font-semibold text-[16px] text-dark;
+  }
+  p {
+    @apply font-extralight text-[16px] text-dark;
+  }
+  small {
+    @apply font-light text-[10px] text-dark;
+  }
+}
