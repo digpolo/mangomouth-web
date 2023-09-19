@@ -5,6 +5,7 @@ import Button from './button';
 
 const Footer = () => {
   return (
+    
     <section className='bg-dark px-4 '>
       <div className='mx-auto grid grid-cols-1 md:grid-cols-3 max-w-5xl gap-4'>
         <div className='flex flex-col items-center justify-center lg:items-start py-4 '>
