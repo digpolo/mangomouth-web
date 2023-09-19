@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
         <div>
           <p className='text-light py-3 font-semibold text-[16px]'>Quiero recibir atención personalizada:</p>
-          <Button label='CONTACTARME' condition />
+          <Button label='CONTACTARME' condition  href='https://wa.me/573136642915?text=Quiero%20comprar%20frutica%20picada%20con%20pimienta,%20limón%20y%20sal'/>
         </div>
         {/* <div>
           <h2 className='text-light py-3 font-semibold text-[16px] '>Informaci&oacute;n de inter&eacute;s</h2>
