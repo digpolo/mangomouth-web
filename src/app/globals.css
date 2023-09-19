@@ -4,16 +4,8 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  --background-start-rgb: 250, 236, 3;
+  --background-end-rgb: 250, 236, 3;
 }
 
 body {
@@ -24,4 +16,25 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+@layer base {
+  h1 {
+    @apply font-bold text-[38px] text-dark;
+  }
+  h2 {
+    @apply font-semibold text-[30px] text-dark;
+  }
+  h3 {
+    @apply font-medium text-[24px] text-dark;
+  }
+  h4 {
+    @apply font-semibold text-[16px] text-dark;
+  }
+  p {
+    @apply font-extralight text-[16px] text-dark;
+  }
+  small {
+    @apply font-light text-[10px] text-dark;
+  }
 }
