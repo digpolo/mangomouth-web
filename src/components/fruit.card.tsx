@@ -14,7 +14,7 @@ const FruitCard: React.FC<CardProps> = ({ cardProduct }) => {
     return (
 
         <div className=' '>
-            <div className=''>
+            <div className='my-4'>
                 <Image
                     alt={cardProduct.alt}
                     src={cardProduct.src}
@@ -23,7 +23,7 @@ const FruitCard: React.FC<CardProps> = ({ cardProduct }) => {
                     className='w-32 h-32'
                 />
             </div>
-            <h3 className='font-medium text-xl py-4  bg-[#FFF774] rounded-xl w-40 text-center'>{cardProduct.title}</h3>
+            <h3 className='font-medium text-xl py-2  bg-[#FFF774] rounded-xl w-40 text-center'>{cardProduct.title}</h3>
         </div>
 
 

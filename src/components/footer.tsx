@@ -15,7 +15,7 @@ const Footer = () => {
           <p className={'text-xs text-light py-2 '}>Deliciosa fruta con pimienta, limón y sal</p>
         </div>
         <div className='flex flex-col items-start'>
-          <h2 className='text-light py-3 font-semibold text-[16px]'>Cont&aacute;ctanos:</h2>
+          <h2 className='text-light py-3 font-semibold text-[16px]'>Siguenos</h2>
           <ul className='text-light gap-3 flex flex-col'>
             {/* <li>
               negocios@trespagos.com

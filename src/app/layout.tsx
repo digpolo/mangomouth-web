@@ -9,8 +9,8 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Impulsa tu negocio a Tres Pagos",
-  description: "Compra por adelantado para impulsar tu negocio",
+  title: "MangoMouth",
+  description: "Frutica picada con limon y sal",
 };
 
 export default function RootLayout({
