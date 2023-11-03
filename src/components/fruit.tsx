@@ -18,26 +18,26 @@ let flavors = [
     title: 'Manzana'    
   },
   {
-    id: 2,
+    id: 3,
     alt: 'icono de piña',
     src: '/pineapple-icon.svg',
     title: 'Piña'
     
   },
   {
-    id: 2,
+    id: 4,
     alt: 'icono de manocillo',
     src: '/mamoncillo-icon.svg',
     title: 'Mamoncillo'    
   },
   {
-    id: 2,
+    id: 5,
     alt: 'icono de maracuya',
     src: '/passion-icon.svg',
     title: 'Maracuya' 
   },
   {
-    id: 2,
+    id: 6,
     alt: 'icono de limon',
     src: '/lemon-icon.svg',
     title: 'Maracuya' 

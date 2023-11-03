@@ -25,7 +25,7 @@ const Card: React.FC<CardProps> = ({ cardProduct }) => {
                     height={300}
                 />
             </div>
-            <div className='hover:cursor-pointer mx-6'>
+            <div className='mx-6'>
                 <h3 className='font-medium text-lg pb-1 py-2'>{cardProduct.title}</h3>
                 <h4>{cardProduct.description}</h4>
                 <p>{cardProduct.ingredients}</p>

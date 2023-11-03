@@ -21,7 +21,7 @@ const Footer = () => {
               negocios@trespagos.com
             </li> */}
             <li >
-              <Link href="https://www.instagram.com/mangomouthcol/" className='font-extralight'>
+              <Link href="https://www.instagram.com/mangomouthcol/" className='font-extralight' target='black'>
                 Instagram
               </Link>
             </li>
