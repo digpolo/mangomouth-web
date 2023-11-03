@@ -24,7 +24,7 @@ const Header = () => {
                         <Image
                             src='/hero-img.jpeg'
                             alt="Deliciosa frutica picada con pimienta limon y sal"
-                            className="object-contain max-h-full w-full "
+                            className="object-contain max-h-full w-full rounded-2xl"
                             width={1000}
                             height={1000}
                         />
