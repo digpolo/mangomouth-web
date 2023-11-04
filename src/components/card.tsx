@@ -25,7 +25,7 @@ const Card: React.FC<CardProps> = ({ cardProduct }) => {
                     height={300}
                 />
             </div>
-            <div className='hover:cursor-pointer mx-6'>
+            <div className='mx-6'>
             <div className='flex items-center justify-center my-4'>
                     <h3 className=' w-20 h-20 text-center flex items-center justify-center rounded-full bg-[#FAEC03]'>{cardProduct.price}</h3>
                 </div>
