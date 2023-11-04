@@ -20,21 +20,21 @@ body {
 
 @layer base {
   h1 {
-    @apply font-bold text-[38px] text-dark;
+    @apply font-bold text-[38px] ;
   }
   h2 {
-    @apply font-semibold text-[30px] text-dark;
+    @apply font-semibold text-[30px] ;
   }
   h3 {
-    @apply font-medium text-[24px] text-dark;
+    @apply font-medium text-[24px] ;
   }
   h4 {
-    @apply font-semibold text-[16px] text-dark;
+    @apply font-semibold text-[16px] ;
   }
   p {
-    @apply font-extralight text-[16px] text-dark;
+    @apply font-extralight text-[16px] ;
   }
   small {
-    @apply font-light text-[10px] text-dark;
+    @apply font-light text-[10px] ;
   }
 }
