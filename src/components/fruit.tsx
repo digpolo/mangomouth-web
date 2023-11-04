@@ -40,7 +40,7 @@ let flavors = [
     id: 2,
     alt: 'icono de limon',
     src: '/lemon-icon.svg',
-    title: 'Maracuya' 
+    title: 'Limon' 
   }
 ]
 
