@@ -36,7 +36,7 @@ let products = [
 const Dishes = () => {
   return (
     <div className='flex flex-col items-center justify-between  my-10 px-4'>
-      <h2 className='py-8'>¿Elige cual quires y pidela ahora?</h2>
+      <h2 className='py-8'>¿Cuál quieres pedir?</h2>
       <div className=' gap-10  grid grid-cols md:grid-cols-2 lg:grid-cols-3 mx-4'>
         {products.map((product) => (
           <Card key={product.id} cardProduct={product} />
